@@ -1,5 +1,5 @@
 import {LitElement, html} from 'lit';
-import { customElement } from '@lit/reactive-element/decorators/custom-element.js';
+import { customElement } from "lit/decorators.js";
 
 @customElement('home-element')
 export class HomeElement extends LitElement {

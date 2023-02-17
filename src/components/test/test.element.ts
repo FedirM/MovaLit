@@ -1,9 +1,8 @@
 import { html, LitElement, unsafeCSS } from "lit";
-import { property } from "lit/decorators.js";
-import { customElement } from "lit/decorators/custom-element.js";
+import { property, customElement } from "lit/decorators.js";
 import { getTailwindProcessor } from "../../shared/tailwind.element";
 
-import classStyle from './test.element.scss';
+import classStyle from './test.element.scss?inline';
 
 
 

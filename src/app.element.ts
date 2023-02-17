@@ -5,7 +5,7 @@ import { Router } from '@vaadin/router';
 import { router } from './index';
 import { getTailwindProcessor } from './shared/tailwind.element';
 
-import classStyle from './app.element.scss';
+import classStyle from './app.element.scss?inline';
 
 console.log('STYLES: ', classStyle);
 /**
